@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--Tells browser to render page using HTML5 std-->
+
+<!--define language -->
+<html lang="en">
+<head>
+<!--define character set-->
+<meta charset="UTF-8"/>
+
+<!--define a redirect page after 3s -->
+<!--<meta http-equiv="refresh" content="3; url=redirect.html /> -->
+
+<!--helps search engines describe the type of data on your web page, should limit to 200 characters-->
+<meta name="description" content="Learn everything you want to know about HTML5" />
+
+<!-- limit to 1000 chars -->
+<meta name="keywords" content="html5 canvas, html5 tutorial, html5 tags, html5 video, learn html5" />
+
+<!-- how search engines should index your content; "index" "noindex" for hyperlinks: "follow" "nofollow"-->
+<meta name="robots" content="index, follow"/>
+
+<!--javascript tags -->
+<script src="randomcolorchange.js"></script>
+
+<!--defining default location for all the links on page-->
+<base href="http://localhost/html/"/>
+
+<!-- define CSS sheet/file-->
+<link rel="stylesheet" href="styles.css"/>
+
+<!-- icon on the browser tab 16 x 16 px -->
+<link rel="icon" href="favicon.ico">
+
+<title>HTML5 Learning</title>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+<!--detects if user's browser has JavaScript enabled-->
+<noscript>Please enable JavaScript</noscript>
+
+<h1>Hello HTML5</h1>
+
+<p>
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+<br>Breaks add 1 line and Paragraphs add 2 lines.
+</p>
+<!-- insert horizontal line -->
+<hr>
+
+<!-- blockquote indents the text-->
+<blockquote cite="http://www.google.com">
+Google is the world's most popular search engine!
+</blockquote>
+
+<!-- q tag inserts "" -->
+<q cite="http://www.google.com">
+Google is the world's most popular search engine!
+</q>
+
+<!-- pre = preformatted, Use the <pre> element when displaying text with unusual formatting, or some sort of computer code. -->
+<pre>
+___________                        _________                      __  .__    .__                 
+\__    ___/__.__.______   ____    /   _____/ ____   _____   _____/  |_|  |__ |__| ____    ____   
+  |    | <   |  |\____ \_/ __ \   \_____  \ /  _ \ /     \_/ __ \   __\  |  \|  |/    \  / ___\  
+  |    |  \___  ||  |_> >  ___/   /        (  <_> )  Y Y  \  ___/|  | |   Y  \  |   |  \/ /_/  > 
+  |____|  / ____||   __/ \___  > /_______  /\____/|__|_|  /\___  >__| |___|  /__|___|  /\___  /  
+          \/     |__|        \/          \/             \/     \/          \/        \//_____/   
+</pre>
+
+<pre>
+<code>
+	function init(){
+		var <var>h1tags</var> = document.getElementsByTagName("h1");
+		<var>h1tags[0]</var>.onclick = changeColor;
+	}
+</code>
+</pre>
+
+<p>
+new text
+</p>
+</div>
+
+</body>
+</html>
